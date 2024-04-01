@@ -46,6 +46,11 @@
     scrollyVideo.setTargetTimePercent(...args);
   }
 
+  // Get Instance of the Video Element used by ScrollyVideo
+  export function getVideoElement() {
+    return scrollyVideo ? scrollyVideo.getVideoElement() : null;
+  }
+
   // Cleanup the component on destroy
   onDestroy(() => {
     if (scrollyVideo && scrollyVideo.destroy) scrollyVideo.destroy();

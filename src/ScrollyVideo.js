@@ -509,6 +509,13 @@ class ScrollyVideo {
     // Clear component
     if (this.container) this.container.innerHTML = '';
   }
+
+  /**
+   * Call to reference the video element
+   */
+  getVideoElement() {
+    return this.video;
+  }
 }
 
 export default ScrollyVideo;
