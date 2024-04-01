@@ -1,5 +1,5 @@
 {
-  "name": "scrolly-video",
+  "name": "scrolly-video-nbcu",
   "version": "0.0.20",
   "description": "A component for scroll-based (or other externally controlled) playback.",
   "main": "dist/scrolly-video.js",
